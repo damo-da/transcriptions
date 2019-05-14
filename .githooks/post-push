@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cd ~/dance/website/next-express
+git submodule update --recursive --remote
+
+git add src/assets/transcriptions
+
+git commit -m "Update transcriptions"
+
+git push
